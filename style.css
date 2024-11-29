@@ -1,26 +1,25 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul, li, ol{
+ul, li, ol {
     list-style: none;
 }
 
-html, body{
+html, body {
     scroll-behavior: smooth;
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
     background-color: #A8BF61;
 }
 
-
-header{
+header {
     background-color: #A8BF61;
     padding: 34px;
     position: fixed;
@@ -29,7 +28,7 @@ header{
     z-index: 10;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     justify-content: space-around;
 }
@@ -63,19 +62,19 @@ header nav a {
     transform-origin: bottom left; 
 }
 
-main{
+main {
     padding-top: 100px;
 }
 
-.grupo{
+.grupo {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    padding: 30px;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -85,28 +84,39 @@ main{
     padding: 0px;
 }
 
-.container .imagem img{
-    max-width: 95%;
+.container .imagem img {
+    max-width: 80%;
 }
 
-.conteudo{
+.conteudo {
     max-width: 55%;
     right: 5px;
 }
 
-.conteudo h1{
-    font-size: 68px;
-    color: white;
+.conteudo .texto {
+    background-color: #FFF8ED;
+    padding: 20px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
-.conteudo p{
-    font-size: 22px;
+.conteudo h1.titulo {
+    background-color: #5C7437;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+
+.conteudo .texto ol li {
+    font-size: 18px;
     line-height: 1.6;
-    margin-bottom: 30px;
-    color: white;
+    color: black;
+    margin-bottom: 10px; /* Espaço entre itens */
 }
 
-.button-explore{
+.button-explore {
     display: inline-block;
     padding: 1.2em 2.5em;
     font-size: 1.1rem;
@@ -130,7 +140,7 @@ main{
     background-color: #2f6226;
 }
 
-.button-profissoes{
+.button-profissoes {
     display: inline-block;
     padding: 1.2em 2.5em;
     font-size: 1.1rem;
@@ -152,4 +162,25 @@ main{
 
 .button-profissoes:hover {
     background-color: #2f6226;
+}
+
+/* TELA INICIO DESKTOP */
+#inicio .conteudo h1{
+    font-size: 68px;
+    color: white;
+}
+
+#inicio .conteudo p{
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#inicio .conteudo .texto {
+    background-color: #5C7437;
+    border-radius: 39px;
+    padding: 20px;
+    height: auto;
+    margin-bottom: 20px;
 }
