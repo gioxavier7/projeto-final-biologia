@@ -113,7 +113,12 @@ main {
     font-size: 18px;
     line-height: 1.6;
     color: black;
-    margin-bottom: 10px; /* Espaço entre itens */
+    margin-bottom: 10px;
+}
+
+.conteudo .texto p{
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 .button-explore {
