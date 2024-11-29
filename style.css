@@ -85,7 +85,8 @@ main {
 }
 
 .container .imagem img {
-    max-width: 80%;
+    width: 512px;
+    height: 512px;
 }
 
 .conteudo {
