@@ -63,9 +63,9 @@ header nav a {
 }
 
 .menu-toggle img {
-    width: 35px; /* Ajuste o tamanho conforme necessário */
-    height: auto; /* Manter a proporção da imagem */
-    cursor: pointer; /* Mostrar o cursor de clique quando passar sobre a imagem */
+    width: 35px;
+    height: auto;
+    cursor: pointer;
 }
 
 .x{
@@ -77,8 +77,7 @@ header nav a {
 }
 
 .menu-burguer{
-    width: 2%;
-    cursor: pointer;
+    display: none;
 }
 
 .container-menu{
@@ -261,8 +260,9 @@ main {
         max-width: 100%;
     }
 
-    .conteudo h1.titulo {
+    .conteudo h1.titulo, #inicio .conteudo h1 {
         font-size: 48px;
+        margin-bottom: 30px;
     }
 
     .conteudo p {
@@ -285,5 +285,16 @@ main {
 
     .menu-toggle.open + nav ul {
         display: flex;
+    }
+
+    /* Ajuste específico para imagens dentro de seções */
+    .section img {
+        max-height: 300px; /* Limita a altura máxima das imagens */
+        object-fit: contain; /* Redimensiona a imagem proporcionalmente para caber no contêiner */
+    }
+
+    /* Garantindo espaçamento entre as seções */
+    .section + .section {
+        margin-top: 300px;
     }
 }

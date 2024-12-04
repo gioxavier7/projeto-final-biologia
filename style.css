@@ -203,13 +203,14 @@ main {
         flex-direction: column;
         align-items: center;
         gap: 30px;
+        padding: 15px;
     }
 
-    .container .imagem img{
+    .container .imagem img {
         width: 300px;
-        height: 300px;
+        height: auto; /* Ajustado para manter a proporção da imagem */
+        margin-bottom: 20px; /* Espaçamento entre a imagem e outros elementos */
     }
-
     .conteudo{
         max-width: 90%;
         text-align: center;
