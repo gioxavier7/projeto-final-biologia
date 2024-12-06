@@ -2,7 +2,7 @@
 
 ## Prévia do Site
 
-**Tela Principal - Desktop e Tablet:**
+**Tela Principal - Desktop, Tablet e Mobile:**
 ![Tela Principal](./images/site.png)
 
 ## Visão Geral
@@ -30,7 +30,7 @@ Este projeto é um website informativo e responsivo voltado para o estudo da Bio
   - **Biotecnólogo:** Uso de organismos para criar produtos e processos tecnológicos.
 
 ### Responsividade e Navegação
-- Design responsivo, compatível com dispositivos móveis (Tablets) e desktops.
+- Design responsivo, compatível com dispositivos móveis e desktops.
 - Navegação simples e intuitiva, com um menu acessível e seções bem definidas.
 
 ### Menu Responsivo com JavaScript
