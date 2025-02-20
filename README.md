@@ -62,7 +62,7 @@ Este projeto é um website informativo e responsivo voltado para o estudo da Bio
 ## Instalação e Uso
 1. Clone o repositório para o seu ambiente local:
    ```bash
-   git clone https://github.com/seu-usuario/repo-biologia.git
+   git clone https://github.com/gioxavier7/projeto-final-biologia.git
    ```
 
 2. Abra o arquivo `index.html` em qualquer navegador moderno para visualizar o site.
